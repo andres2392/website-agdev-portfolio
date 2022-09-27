@@ -84,7 +84,7 @@ textarea {
 
 .heading-primary {
   color: var(--dark);
-  font-size: 5rem;
+  font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -207,7 +207,7 @@ textarea {
 
 .home-hero {
   color: var(--dark);
-  background: linear-gradient(to right, rgba(238, 237, 237, 0.788), rgba(255, 252, 252, 0.529)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(238, 237, 237, 0.788), rgba(255, 252, 252, 0.529)), url(../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -347,7 +347,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(238, 237, 237, 0.788), rgba(255, 252, 252, 0.529)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(238, 237, 237, 0.788), rgba(255, 252, 252, 0.529)), url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -428,7 +428,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(238, 237, 237, 0.788), rgba(255, 252, 252, 0.529)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(238, 237, 237, 0.788), rgba(255, 252, 252, 0.529)), url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
