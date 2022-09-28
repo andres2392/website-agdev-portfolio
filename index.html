@@ -8,6 +8,7 @@
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -162,24 +163,23 @@
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
+                I'm 
                 <strong>Andres Gonzalez</strong>
-                and I'm a <strong> Full-Stack Developer </strong> located in
-                Miami. I've done
+                a <strong> Full-Stack Developer </strong> located in
+                Miami. I have a Masters Degree in Information Technology.
+                </p>
+                <p class="about__content-details-para">Over the years, I've done countless 
                 <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+                projects for agencies, consulted for startups, and collaborated with talented people to create 
+                <strong>digital products </strong>for both business and consumer use.
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
+                I think I could categorize myself as a digital product junky. Over the years, I've learned and used hundreds 
+                of web and mobile apps in different industries and verticals. Feel free to
                 <strong>contact</strong> me here, or via <a href="https://www.linkedin.com/in/andres-ignacio-gonzalez-rivas-a7098196/"><b style="text-decoration: underline;">Linkedin</b></a>
               </p>
-              <p class="about__content-details-para"> If I'm not at the computer, I'm outdoor looking for a new Adventure. Love to practice extreme sports.
-                I do <strong>Kitesurf and Wakeboard</strong> if you want you can see my
+              <p class="about__content-details-para"> If I'm not at the computer, I'm outdoor looking for a new Adventures. Love to practice extreme sports and 
+                take <strong> photography</strong>. if you want to see my work you can go to my 
                 <a href="#"><b style="text-decoration: underline;">Instagram</b></a>
                 profile.
               </p>
@@ -187,7 +187,9 @@
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
               >Contact Me</a
             >
-            <a href="#" class="btn btn--med btn--theme-inv dynamicBgClr"
+            <a href="/assets/resume/andres-gonzalez.pdf" 
+            class="btn btn--med btn--theme-inv dynamicBgClr"
+            target="_blank"
             >Download CV</a
           >
           </div>
@@ -317,7 +319,8 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="https://formsubmit.co/aigonzalez.dev@gmail.com" method="POST"
+                class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -352,10 +355,22 @@
                 id="message"
               ></textarea>
             </div>
+            <!-- RECAPCHAT GOOGLE - BUSCAR COMO PONER 
+            <div class="contact__form-field">
+              <div class="g-recaptcha" data-sitekey="6LfV5jsiAAAAAAY_1bQFzQGxb3glyb035wQG20el"></div>
+            </div>
+            -->
+            <!--  CHANGE DOMAIN-->
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+            <!-- RECAPCHAT FORMSUBMIT -->
+            <input type="hidden" name="_captcha" value="false">
+              
             <button type="submit" class="btn btn--theme contact__btn">
               Submit
             </button>
           </form>
+          <div class="status"> 
+          </div>
         </div>
       </div>
     </section>
